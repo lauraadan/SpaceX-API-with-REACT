@@ -13,7 +13,7 @@ export function App() {
     <>
     <Image src={logo} alt="logo spacex" width={300} m={4} /> 
     <Routes>
-      <Route path="/" element={<LaunchList />} />
+      <Route path="/SpaceX-API-with-REACT" element={<LaunchList />} />
       {/* el :id lo va a recibir LaunchesList por props */}
       <Route path="launch/:launchId" element={<LaunchDetails />} />
       <Route path="rockets/:rocketId" element={<RocketDetails />} />
