@@ -1,4 +1,4 @@
-import logo from './assets/logo-spacex.png'
+import logo from './assets/img/logo-spacex.png'
 import {Image} from '@chakra-ui/react'
 import { LaunchItem } from "./components/LaunchItem"
 import './App.css';
