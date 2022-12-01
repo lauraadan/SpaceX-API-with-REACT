@@ -12,10 +12,7 @@ const theme = extendTheme({
   },
 })
 
-
-
 ReactDOM.createRoot(document.getElementById("root")).render(
-  // renderiza el componente APP y lo renderizamos en el root
   <React.StrictMode>
     <ChakraProvider theme={theme}>
       <BrowserRouter>
@@ -24,6 +21,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </ChakraProvider>
   </React.StrictMode>
 );
-
 
 export default theme

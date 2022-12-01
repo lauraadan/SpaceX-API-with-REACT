@@ -6,7 +6,6 @@ import { Link } from "react-router-dom"
 export function LaunchItem(launch) {
   return (
     <Box bg="gray.100" p={4} m={4} borderRadius="lg">
-      {/*bg y box es de chakra ui*/}
       <Flex display="flex">
         <Text fontSize="2xl">
           Mission: <strong>{launch.mission_name}</strong> ({launch.launch_year})
